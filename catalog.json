@@ -1,0 +1,38 @@
+{
+    "catalog": {
+        "modal1-nginx-lab": {
+            "app_readme": "<p>Managing Nginx proxy hosts with a simple, powerful interface.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/nginx-proxy-manager\">https://truecharts.org/charts/stable/nginx-proxy-manager</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+            "categories": [
+                "networking"
+            ],
+            "description": "Managing Nginx proxy hosts with a simple, powerful interface.",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://truecharts.org/charts/stable/nginx-proxy-manager",
+            "location": "/home/runner/work/catalog/catalog/stable/nginx-proxy-manager",
+            "latest_version": "10.0.5",
+            "latest_app_version": "2.11.1",
+            "latest_human_version": "2.11.1_10.0.5",
+            "last_update": "2024-05-04 16:39:06",
+            "name": "modal2-nginx-proxy-manager",
+            "recommended": false,
+            "title": "Modal3-Nginx-proxy-manager",
+            "maintainers": [
+                {
+                    "name": "Instituto Modal",
+                    "email": "info@modal.org.br",
+                    "url": "https://modal.org.br"
+                }
+            ],
+            "tags": [],
+            "screenshots": [],
+            "sources": [
+                "https://nginxproxymanager.com/",
+                "https://github.com/NginxProxyManager/nginx-proxy-manager",
+                "https://github.com/truecharts/charts/tree/master/charts/stable/nginx-proxy-manager",
+                "https://hub.docker.com/r/jc21/nginx-proxy-manager"
+            ],
+            "icon_url": "https://www.gstatic.com/webp/gallery/4.webp"
+        }
+    }
+}
