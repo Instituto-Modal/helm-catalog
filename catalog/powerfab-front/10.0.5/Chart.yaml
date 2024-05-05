@@ -36,7 +36,8 @@ maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: nginx-proxy-manager
+#MODAL-Usar o mesmo valor da propriedade name no arquivo catalogo
+name: powerfab-front
 sources:
   - https://nginxproxymanager.com/
   - https://github.com/NginxProxyManager/nginx-proxy-manager
