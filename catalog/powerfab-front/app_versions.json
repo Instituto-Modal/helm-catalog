@@ -7,7 +7,7 @@
         "last_update": "2024-05-04 16:39:06",
         "required_features": [
             "normalize/interfaceConfiguration",
-            "definitions/timezone",
+            "definitions/backend-endpoint",
             "definitions/interface",
             "definitions/certificate"
         ],
@@ -501,25 +501,16 @@
                     }
                 },
                 {
-                    "variable": "TZ",
-                    "label": "Timezone",
+                    "variable": "POWERAPS_REST_ENDPOINT",
+                    "label": "Backend do EndPoint",
                     "group": "General",
                     "schema": {
                         "type": "string",
-                        "default": "America/Los_Angeles",
+                        "default": "http://localhost:18000",
                         "$ref": [
-                            "definitions/timezone"
+                            "definitions/backend-endpoint"
                         ],
-                        "enum": [
-                            {
-                                "value": "Asia/Damascus",
-                                "description": "'Asia/Damascus' timezone"
-                            },
-                            {
-                                "value": "Asia/Saigon",
-                                "description": "'Asia/Saigon' timezone"
-                            }
-                        ]
+                        "enum": []
                     }
                 },
                 {

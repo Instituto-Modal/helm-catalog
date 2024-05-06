@@ -24,17 +24,17 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Managing Nginx proxy hosts with a simple, powerful interface.
+description: Aplicação de planejamento de produção
 home: https://truecharts.org/charts/stable/nginx-proxy-manager
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/nginx-proxy-manager.webp
+icon: https://www.gstatic.com/webp/gallery/4.webp
 keywords:
   - nginx-proxy-manager
   - nginx
   - reverse-proxy
 kubeVersion: ">=1.24.0-0"
 maintainers:
-  - name: TrueCharts
-    email: info@truecharts.org
+  - name: Instituto Modal
+    email: info@modal.org.br
     url: https://truecharts.org
 #MODAL-Usar o mesmo valor da propriedade name no arquivo catalogo
 name: powerfab-front

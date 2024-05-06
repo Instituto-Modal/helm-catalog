@@ -1,16 +1,16 @@
 groups:
-  - name: Image
+  - name: Imagem Docker
     description: |
-      Configured the images to be used for the Chart.
-      It's wise to use "digest pinned" tags and to avoid using "latest".
+      Aponte as imagens a serem utilizadas nesse Chart.
+      Evite usar o famoso "latest", você consegue fazer melhor que isso.
 
       Checkout the following documentation for more information:
       - https://truecharts.org/common/#images
 
 
-  - name: General
+  - name: Geral
     description: |
-      For TrueNAS SCALE We've grouped a number of settings here, that all effact how apps run in general.
+      Aqui você configurará os parâmetros gerais que regulam a aplicação.
 
       Checkout the following documentation for more information:
         - https://truecharts.org/common/global/
@@ -54,7 +54,7 @@ groups:
       Checkout the following documentation for more information:
       - https://truecharts.org/common/scaleexternalinterface/
 
-  - name: Persistence
+  - name: Persistência
     description: |
       Many applications will have certain options for storage to be configurable by the user, the main two being PVC and hostpath but may include other types.
       This storage is called Persistence since it is not deleted upon restart or upgrade of an application.
@@ -373,14 +373,14 @@ questions:
                                               schema:
                                                 type: string
 
-  - variable: TZ
-    label: Timezone
+  - variable: POWERAPS_REST_ENDPOINT
+    label: Backend do EndPoint
     group: "General"
     schema:
       type: string
-      default: "Etc/UTC"
+      default: "http://localhost:18000"
       $ref:
-        - "definitions/timezone"
+        - "definitions/backend-endpoint"
 
   - variable: podOptions
     group: "General"
