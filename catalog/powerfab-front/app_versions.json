@@ -506,7 +506,10 @@
                     "group": "General",
                     "schema": {
                         "type": "string",
-                        "default": "http://localhost:18000"
+                        "default": "http://localhost:18000",
+                        "$ref": [
+                            "definitions/backend-endpoint"
+                        ]
                     }
                 },
                 {
