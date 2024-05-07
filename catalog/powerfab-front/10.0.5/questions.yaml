@@ -379,8 +379,6 @@ questions:
     schema:
       type: string
       default: "http://localhost:18000"
-      $ref:
-        - "definitions/backend-endpoint"
 
   - variable: podOptions
     group: "General"

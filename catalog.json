@@ -1,7 +1,7 @@
 {
     "catalog": {
         "powerfab-front": {
-            "app_readme": "<p>Managing Nginx proxy hosts with a simple, powerful interface.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/nginx-proxy-manager\">https://truecharts.org/charts/stable/nginx-proxy-manager</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
+            "app_readme": "<p>Essa Aplicação faz em 5 segundos o que as outras não fazem nem em 1 hora.</p>\n<p>Só que mesmo assim, o povo não compra pra extender o projeto. É o Benedito mesmo.</p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
             "categories": [
                 "networking"
             ],

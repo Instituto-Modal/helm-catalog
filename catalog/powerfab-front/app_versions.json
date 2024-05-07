@@ -76,11 +76,11 @@
         "schema": {
             "groups": [
                 {
-                    "name": "Image",
+                    "name": "Imagem",
                     "description": "Configured the images to be used for the Chart.\nIt's wise to use \"digest pinned\" tags and to avoid using \"latest\".\n\nCheckout the following documentation for more information:\n- https://truecharts.org/common/#images\n"
                 },
                 {
-                    "name": "General",
+                    "name": "Geral",
                     "description": "For TrueNAS SCALE We've grouped a number of settings here, that all effact how apps run in general.\n\nCheckout the following documentation for more information:\n  - https://truecharts.org/common/global/\n  - https://truecharts.org/common/#tz\n  - https://truecharts.org/common/podoptions/\n  - Image Pull Secrets\n"
                 },
                 {
@@ -92,7 +92,7 @@
                     "description": "Every application has different values that may be required to run or have multiple options that the user may choose to enable or disable to change the behavior of the application.\nMost options should have a Tooltip (Circled Question Mark) to further describe said option.\n\nTo find more information, lookup your chart-specific documentation in the Charts List: https://truecharts.org/charts/description-list/\n"
                 },
                 {
-                    "name": "Services",
+                    "name": "Serviços",
                     "description": "Service and Networking options for any applications are contained here.\nSome applications may have complicated networking setups with multiple options or some may have no options here at all.\n\nOptions here include the service and port configurations for the application, and more may be enabled or changed under the Advanced Settings and Show Expert Config boxes.\n\nCheckout the following documentation for more information:\n- https://truecharts.org/common/service/\n"
                 },
                 {
@@ -100,7 +100,7 @@
                     "description": "Contains advanced networking options that are not actively supported by the TrueCharts team.\nCurrently only contains scaleExternalInterfaces.\n\nCheckout the following documentation for more information:\n- https://truecharts.org/common/scaleexternalinterface/\n"
                 },
                 {
-                    "name": "Persistence",
+                    "name": "Persistencia",
                     "description": "Many applications will have certain options for storage to be configurable by the user, the main two being PVC and hostpath but may include other types.\nThis storage is called Persistence since it is not deleted upon restart or upgrade of an application.\n\nCheckout the following documentation for more information:\n- https://truecharts.org/common/persistence/\n- https://truecharts.org/scale/guides/nfs-share/\n- https://truecharts.org/general/faq/#why-pvc-is-recommended-over-hostpath\n"
                 },
                 {
@@ -112,7 +112,7 @@
                     "description": "The security settings for each application and/or permissions that each application may have for the files/directories created.\nEach application will come with predefined permissions but users may want to change certain setting depending on their usage or capabilities.\n\nUnless necessary users are advised to keep this section mostly to defaults.\n\nCheckout the following documentation for more information:\n- https://truecharts.org/common/securitycontext/\n"
                 },
                 {
-                    "name": "Resources",
+                    "name": "Recursos",
                     "description": "Resources limits that have been defined by each application are in this section.\nMost will have a specific default that some users may want to change based on their specific hardware or needs.\n\nThis also contains the options to mount GPUs or, more precisely, \"request\" GPU's to be mounted.\n\nCheckout the following documentation for more information:\n- https://truecharts.org/common/resources/\n"
                 },
                 {
@@ -128,7 +128,7 @@
                     "description": "StorageClasses define where to storage Storage.\n\nCheckout the following documentation for more information:\n"
                 },
                 {
-                    "name": "Metrics",
+                    "name": "Metricas",
                     "description": "Contains options to configure Prometheus metrics for the application.\n\nCheckout the following documentation for more information:\n- https://truecharts.org/common/metrics/\n"
                 },
                 {
@@ -144,11 +144,11 @@
                     "description": "For Postgresql we use \"CloudNative-PG\" as a backend, which has to be installed first.\n\nCheckout the following documentation for more information:\n- https://truecharts.org/common/cnpg/\n- https://truecharts.org/scale/guides/sql-export/\n- https://truecharts.org/scale/guides/recover-cnpg/\n"
                 },
                 {
-                    "name": "Dependencies",
+                    "name": "Dependencias",
                     "description": "contains dependency setting for which we, currently, do not have seperate catagories (yet)\n"
                 },
                 {
-                    "name": "Documentation",
+                    "name": "Documentação",
                     "description": "We added this section to make everyone aware that OpenSource isn't always easy.\nIt doesn't keep existing without signficant ongoing support, so please consider supporting TrueCharts and other OpenSource projects.\n\nBefore installing, be sure you've followed the https://truecharts.org/scale/guides/getting-started/\nWe would also advice going over our https://truecharts.org/scale/guides/scale-intro/\nand many of the other documentation pages...\n"
                 }
             ],
@@ -507,10 +507,6 @@
                     "schema": {
                         "type": "string",
                         "default": "http://localhost:18000",
-                        "$ref": [
-                            "definitions/backend-endpoint"
-                        ],
-                        "enum": []
                     }
                 },
                 {
