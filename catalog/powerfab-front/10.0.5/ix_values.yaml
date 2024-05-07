@@ -55,21 +55,21 @@ workload:
         main:
           probes:
             liveness:
-              enabled: true
+              enabled: false
               custom: true
               spec:
                 exec:
                   command:
                     - /bin/check-health
             readiness:
-              enabled: true
+              enabled: false
               custom: true
               spec:
                 exec:
                   command:
                     - /bin/check-health
             startup:
-              enabled: true
+              enabled: false
               custom: true
               spec:
                 exec:
