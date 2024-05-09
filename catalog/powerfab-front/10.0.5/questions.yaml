@@ -375,12 +375,12 @@ questions:
 
   - variable: POWERAPS_REST_ENDPOINT
     label: Backend do EndPoint
-    group: "General"
+    group: General
     schema:
       type: string
       default: "http://localhost:18000"
       $ref:
-        - "definitions/backend-endpoint"
+        - definitions/backend-endpoint
 
   - variable: podOptions
     group: "General"
