@@ -5104,7 +5104,7 @@
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/nginx-proxy-manager/10.0.5",
-        "last_update": "2024-05-04 16:39:06",
+        "last_update": "2024-05-08 16:39:06",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/backend-endpoint",
@@ -5124,7 +5124,7 @@
                 "truecharts.org/train": "stable"
             },
             "apiVersion": "v2",
-            "appVersion": "2.11.1",
+            "appVersion": "2.11.2",
             "dependencies": [
                 {
                     "name": "common",
