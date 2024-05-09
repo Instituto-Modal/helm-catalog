@@ -11,7 +11,7 @@
             "definitions/interface",
             "definitions/certificate"
         ],
-        "human_version": "2.11.1_10.0.6",
+        "human_version": "2.11.2_10.0.6",
         "version": "10.0.6",
         "chart_metadata": {
             "annotations": {
@@ -24,7 +24,7 @@
                 "truecharts.org/train": "stable"
             },
             "apiVersion": "v2",
-            "appVersion": "2.11.1",
+            "appVersion": "2.11.2",
             "dependencies": [
                 {
                     "name": "common",
@@ -76,7 +76,7 @@
         "schema": {
             "groups": [
                 {
-                    "name": "Imagem",
+                    "name": "Image",
                     "description": "Configured the images to be used for the Chart.\nIt's wise to use \"digest pinned\" tags and to avoid using \"latest\".\n\nCheckout the following documentation for more information:\n- https://truecharts.org/common/#images\n"
                 },
                 {

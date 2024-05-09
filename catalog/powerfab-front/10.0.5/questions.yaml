@@ -8,7 +8,7 @@ groups:
       - https://truecharts.org/common/#images
 
 
-  - name: Geral
+  - name: General
     description: |
       Aqui você configurará os parâmetros gerais que regulam a aplicação.
 
