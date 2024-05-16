@@ -2,6 +2,7 @@ image:
   repository: registry.nbti.tec.br/brasalfrontend
   pullPolicy: IfNotPresent
   tag: 1.0.0_RC19
+
 service:
   main:
     ports:
@@ -86,3 +87,6 @@ workload:
                 name: '{{ printf "%s-%s" .Release.Name "mariadbcreds" }}'
                 key: plainhost
             DB_MYSQL_PASSWORD: "{{ .Values.mariadb.password }}"
+poweraps:
+    env:
+        powerApsBackend: "ppp"

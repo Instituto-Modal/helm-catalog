@@ -501,7 +501,7 @@
                     }
                 },
                 {
-                    "variable": "POWERAPS_REST_ENDPOINT",
+                    "variable": "powerApsBackend",
                     "label": "Backend do EndPoint",
                     "group": "General",
                     "schema": {
@@ -5601,7 +5601,7 @@
                     }
                 },
                 {
-                    "variable": "POWERAPS_REST_ENDPOINT",
+                    "variable": "powerApsBackend",
                     "label": "Backend do EndPoint",
                     "group": "General",
                     "schema": {
