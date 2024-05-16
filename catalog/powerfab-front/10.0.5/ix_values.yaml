@@ -77,6 +77,4 @@ workload:
                     - /bin/check-health
           env:
             DISABLE_IPV6: true
-poweraps:
-  env:
-    powerApsBackend: "ppp"
+powerApsBackend: "ppp"

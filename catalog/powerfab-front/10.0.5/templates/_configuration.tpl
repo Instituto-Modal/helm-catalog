@@ -3,5 +3,5 @@ configmap:
   config:
     enabled: true
     data:
-      POWERAPS_REST_ENDPOINT: {{ .Values.poweraps.env.powerApsBackend | quote }}
+      POWERAPS_REST_ENDPOINT: {{ .Values.powerApsBackend | quote }}
 {{- end -}}
