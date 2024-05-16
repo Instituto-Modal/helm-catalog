@@ -35,11 +35,6 @@ persistence:
     enabled: true
     mountPath: /etc/letsencrypt
     size: 256Gi
-mariadb:
-  enabled: true
-  includeCommon: true
-  mariadbUsername: npm
-  mariadbDatabase: npm
 portal:
   open:
     enabled: true
@@ -54,6 +49,10 @@ workload:
     podSpec:
       containers:
         main:
+          envFrom:
+            - configMapRef:
+                name: config
+                expandObjectName: true
           probes:
             liveness:
               enabled: false
@@ -78,15 +77,6 @@ workload:
                     - /bin/check-health
           env:
             DISABLE_IPV6: true
-            DB_MYSQL_PORT: 3306
-            DB_MYSQL_NAME: "{{ .Values.mariadb.mariadbDatabase }}"
-            DB_MYSQL_USER: "{{ .Values.mariadb.mariadbUsername }}"
-            DB_MYSQL_HOST:
-              secretKeyRef:
-                expandObjectName: false
-                name: '{{ printf "%s-%s" .Release.Name "mariadbcreds" }}'
-                key: plainhost
-            DB_MYSQL_PASSWORD: "{{ .Values.mariadb.password }}"
 poweraps:
-    env:
-        powerApsBackend: "ppp"
+  env:
+    powerApsBackend: "ppp"
