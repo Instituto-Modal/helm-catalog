@@ -1,18 +1,18 @@
 {
-	    "10.0.6": {
+	    "10.0.7": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
         "location": "/home/runner/work/catalog/catalog/stable/nginx-proxy-manager/10.0.5",
-        "last_update": "2024-05-07 16:39:06",
+        "last_update": "2024-05-09 16:39:06",
         "required_features": [
             "normalize/interfaceConfiguration",
             "definitions/backend-endpoint",
             "definitions/interface",
             "definitions/certificate"
         ],
-        "human_version": "2.11.2_10.0.6",
-        "version": "10.0.6",
+        "human_version": "2.11.2_10.0.7",
+        "version": "10.0.7",
         "chart_metadata": {
             "annotations": {
                 "max_scale_version": "24.04.1",
@@ -70,7 +70,7 @@
                 "https://hub.docker.com/r/jc21/nginx-proxy-manager"
             ],
             "type": "application",
-            "version": "10.0.6"
+            "version": "10.0.7"
         },
         "app_metadata": null,
         "schema": {
